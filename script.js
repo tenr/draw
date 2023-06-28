@@ -70,6 +70,10 @@ function stopDrawing() {
   clearCanvas();
 }
 
+let name1 = document.getElementsByClassName("full-name");
+
+console.log(name1[0].innerText);
+
 function getMousePosition(e) {
   if (e.touches) {
     // Touch events
