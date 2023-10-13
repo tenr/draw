@@ -118,3 +118,12 @@ a:hover {
     bottom: 1rem;
   }
 }
+
+.rainbow-text span {
+  font-family: monospace;
+  font-weight: bold;
+  font-style: italic;
+  text-decoration: underline;
+  color: transparent;
+  font-size: 12px;
+}
